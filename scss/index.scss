@@ -184,6 +184,21 @@
   top: 150%;
   right: -15px;
 
+  .hamburger-btn {
+    width: 32px;
+    height: 32px;
+    margin: 12px 12px 20px auto;
+    background-color: $white;
+    background-image: url(../images/main/close.svg);
+    background-repeat: no-repeat;
+
+    &:hover {
+      background-color: $white;
+      color: $pink;
+      transition: 0.1s;
+    }
+  }
+
   a {
     @include h3;
     width: 335px;
@@ -206,15 +221,6 @@
 
   .page {
     color: $pink;
-  }
-
-  .close {
-    width: 32px;
-    height: 32px;
-    margin: 12px 12px 20px auto;
-    background-color: white;
-    background-image: url(../images/main/close.svg);
-    background-repeat: no-repeat;
   }
 }
 

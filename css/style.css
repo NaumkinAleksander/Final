@@ -238,6 +238,20 @@ body {
   top: 150%;
   right: -15px;
 }
+.hamburger-nav .hamburger-btn {
+  width: 32px;
+  height: 32px;
+  margin: 12px 12px 20px auto;
+  background-color: white;
+  background-image: url(../images/main/close.svg);
+  background-repeat: no-repeat;
+}
+.hamburger-nav .hamburger-btn:hover {
+  background-color: white;
+  color: #f0145a;
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
 .hamburger-nav a {
   font-size: 24px;
   line-height: 28px;
@@ -266,14 +280,6 @@ body {
 }
 .hamburger-nav .page {
   color: #f0145a;
-}
-.hamburger-nav .close {
-  width: 32px;
-  height: 32px;
-  margin: 12px 12px 20px auto;
-  background-color: white;
-  background-image: url(../images/main/close.svg);
-  background-repeat: no-repeat;
 }
 
 .hamburger-nav_active {
