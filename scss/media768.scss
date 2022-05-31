@@ -48,6 +48,10 @@
     }
   }
 
+  h5 {
+    margin: 0px 40px 43px 40px;
+  }
+
   #cases {
     margin: 40px;
     grid-template-columns: repeat(2, 1fr);
@@ -100,7 +104,6 @@
     }
 
     .info {
-      width: calc(2fr - 42px);
       grid-column: 1/3;
     }
 

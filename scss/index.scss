@@ -232,6 +232,10 @@
 
 //---cases---
 
+h5 {
+  margin: 0px 20px 43px 20px;
+}
+
 #cases {
   margin: 30px 20px;
   justify-content: center;
@@ -257,11 +261,11 @@
 }
 
 .cases {
-  width: calc(1fr - 2px);
   background-color: $silver;
   border: 1px solid #ffffff;
   display: grid;
   align-items: end;
+  cursor: pointer;
 
   h3 {
     margin: 20px 20px 0px 20px;
@@ -277,15 +281,9 @@
   &:hover {
     background-color: $greyalt;
   }
-
-  &:hover + .info {
-    position: relative;
-    display: grid;
-  }
 }
 
 .info {
-  width: calc(1fr - 42px);
   padding: 20px;
   border: 1px solid #ffffff;
   background-color: $greyalt;
@@ -300,7 +298,7 @@
   .next {
     width: 32px;
     height: 32px;
-    border-radius: 25px;
+    border-radius: 50%;
     background-color: $silver;
     display: grid;
     justify-content: center;
@@ -311,6 +309,15 @@
       background-color: $greyalt;
     }
   }
+}
+
+.info_wannabiz_active,
+.info_hillel_active,
+.info_tapgerine_active,
+.info_3dlook_active,
+.info_adtelligent_active,
+.info_clikky_active {
+  display: grid;
 }
 
 //---footer---

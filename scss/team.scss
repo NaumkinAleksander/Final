@@ -7,7 +7,8 @@
 
   h5 {
     @include h5;
-    margin-bottom: 46px;
+    text-align: start;
+    margin: 0px 0px 46px 0px;
   }
 
   .card {
